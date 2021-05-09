@@ -1,0 +1,21 @@
+{
+  "name": "hkwak/types",
+  "description": "A small library providing type tools",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Henryk",
+      "email": "henryk.kwak@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HKwak\\HmltComponents\\": "/src"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "rquadling/typed-array": "^1.0",
+    "eloquent/enumeration": "^6.0"
+  }
+}
